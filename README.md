@@ -1,113 +1,136 @@
-# Security Governance & SecOps Case Repository
+README — ORIENTADO A RECRUTADORES E AUDITORES (FRAME ÚNICO, CONTEÚDO INTEGRAL)
 
-## Authority Statement
+# Bonfim Security Constitution
 
-This repository is governed by a formal security constitution, enforced governance principles, and documented decision records.
+## What This Repository Is
 
-All contents are authoritative, auditable, and non-advisory.
+This repository defines a **constitutional governance framework for Information Security and Cybersecurity**.
 
-Undocumented actions are considered invalid by default.
+It is not a codebase.  
+It is not an implementation.  
+It is an **authoritative governance layer** that governs how security decisions are made, validated, documented, and audited across systems, teams, and environments.
 
----
-
-## Purpose
-
-This repository documents a real-world, production-grade security governance case involving:
-
-* API key exposure risk
-* SecOps response
-* GDPR-aligned decision-making
-* Evidence-based remediation
-* Architecture enforcement
-
-It is designed for:
-
-* Security leadership review
-* Senior technical interviews
-* Governance and compliance audits
-* Institutional knowledge transfer
+The repository is designed to operate **above policies, tools, and platforms**, providing a stable and auditable foundation for SecOps, DevOps, and compliance-driven organizations.
 
 ---
 
-## Governance Chain
+## Intended Audience
 
-The authority flow is strictly hierarchical:
+This repository is explicitly designed for:
 
-1. **Constitution**
-
-   * `TREE-OF-AUTHORITY.md`
-
-2. **Governance**
-
-   * `GOVERNANCE-PRINCIPLES.md`
-
-3. **Architecture Decisions**
-
-   * `ADR/ADR-SEC-001.md`
-
-4. **Risk & Incident Simulation**
-
-   * `TTX/TTX-INDEX.md`
-   * `TTX/TTX-SEC-2026-01.md`
-
-5. **Case Study**
-
-   * `CASE-SECOPS-API-KEY-MANAGEMENT.md`
-
-Each layer inherits authority from the previous one.
+- Security Architects
+- SecOps and DevSecOps Leaders
+- Auditors and Compliance Officers
+- GRC and Risk Management Professionals
+- Technical Recruiters evaluating senior profiles
 
 ---
 
-## Security & Compliance Scope
+## What Problem This Solves
 
-Aligned with:
+Many security programs fail due to:
+- Implicit decision-making
+- Authority drift
+- Untraceable governance
+- Overreliance on tools instead of accountability
 
-* SecOps best practices
-* GDPR (Articles 5, 25, 32)
-* Least privilege enforcement
-* Evidence preservation standards
-* Information Security Architecture principles
+This repository addresses those failures by:
 
----
-
-## Highlighted Case
-
-**Secure API Key Management under SecOps & GDPR**
-
-A complete incident-response lifecycle documented from detection to governance reinforcement.
-
-→ See: `CASE-SECOPS-API-KEY-MANAGEMENT.md`
+- Defining **who has authority** and **at which layer**
+- Making **human accountability explicit**
+- Ensuring all decisions are **traceable, versioned, and auditable**
+- Separating **governance** from **implementation**
 
 ---
 
-## Audit & Evidence Orientation
+## Governance Structure (High-Level)
 
-This repository prioritizes:
+The governance chain defined here follows this authoritative order:
 
-* Traceability
-* Observability
-* Verifiability
-* Separation of authority
+Constitution  
+→ Amendments  
+→ Principles  
+→ Articles  
+→ Policies / Standards / Procedures  
+→ Decision Records (ADRs)  
+→ Validation (Tabletop Exercises)  
+→ Operational Implementations (out of scope)
 
-It is structured to withstand:
-
-* Technical audits
-* Governance reviews
-* Regulatory scrutiny
-
----
-
-## Language Policy
-
-* **Authoritative language:** English
-* **Supporting translations:** Portuguese, German
-* Translations do not override the English source.
-* Conflicts escalate to the constitutional layer.
+This structure ensures that **no operational decision exists without governance backing**.
 
 ---
 
-## Final Note
+## Key Artifacts in This Repository
 
-This repository is not a tutorial.
+- **Constitution**  
+  Defines immutable governance intent and authority boundaries.
 
-It is a **demonstration of security maturity under real constraints**.
+- **Principles**  
+  Interpretive anchors (e.g., human accountability).
+
+- **Articles**  
+  Enforceable rules and scope definitions.
+
+- **Amendments**  
+  Formal change control for the constitution itself.
+
+- **Tree of Authority**  
+  Explicit mapping of decision power and precedence.
+
+- **TTX (Tabletop Exercises)**  
+  Simulation-based validation of governance assumptions.
+
+- **ADR (Architecture Decision Records)**  
+  Formal decisions derived from validated TTX outcomes.
+
+---
+
+## Compliance and Audit Alignment
+
+This repository is aligned with:
+
+- SecOps governance models
+- GDPR (data minimization, accountability, traceability)
+- ISO/IEC 27001 governance concepts
+- Auditability-by-design principles
+
+No personal data, secrets, credentials, or environment-specific configurations are stored here.
+
+---
+
+## How This Repository Is Used in Practice
+
+In a real organization, this repository would:
+
+- Serve as the **top-level security governance reference**
+- Be cited by policies, standards, and architectures
+- Provide auditors with **clear evidence of decision discipline**
+- Prevent undocumented or automated authority escalation
+
+---
+
+## What This Repository Is Not
+
+- Not a security tool
+- Not a policy dump
+- Not a checklist
+- Not a tutorial
+
+It is a **governance system**, intentionally minimal, explicit, and strict.
+
+---
+
+## Status
+
+- Governance framework: **Complete**
+- Audit readiness: **High**
+- Operational implementations: **Intentionally excluded**
+
+---
+
+## Maintainer Intent
+
+This repository reflects a security-first, governance-driven approach where **clarity, traceability, and accountability** take precedence over tooling and automation.
+
+It is suitable for organizations and teams that treat security as a **structural responsibility**, not a reactive function.
+
